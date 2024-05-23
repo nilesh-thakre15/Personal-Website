@@ -1,22 +1,12 @@
-*{
+.container{
+  display: flex;
   padding: 10px;
-  margin: 10px;
 }
-.bio{
-  background-color: #FFAC81;
 
 
+.item{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
 }
-.portfolio{
-  background-color: #FF928B;
 
-}
-.photo_dumps{
-  background-color: #FEC3A6;
-
-}
-.contacts{
-  background-color: #EFE9AE;
-
-
-}
