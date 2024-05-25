@@ -1,13 +1,53 @@
 .nav-bar{
   display: flex;
-  padding: 10px;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right:150px;
+  padding-top: 50px;
+   
 }
 
 
 .item{
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 50px;
+}
+
+.box{
+  padding:50px;
+}
+
+.vertical-lines{
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+}
+
+.vertical-line1{
+
+  height: 700px;
+  width: 3px;
+  background-color: black;
+}
+
+.vertical-line2{
+
+  height: 700px;
+  width: 3px;
+  background-color:black;
+}
+
+.horizontal-lines{
+  display: flex;
+}
+
+.horizontal-line1{
+  height: 3px;
+  width: 1824px;
+  background-color: black;
+}
+
+.horizontal-line2{
+  height: 3px ;
+  width: 1824px;
+  background-color: black;
 }
 
