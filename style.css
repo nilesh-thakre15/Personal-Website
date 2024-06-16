@@ -1,23 +1,27 @@
 body{
   background: #1e1e2e;
+}
+
+.home-page{
+   color: #cdd6f4;
+}
+
 /* Nav-bar */
-.nav-bar{
+
+/*.nav-bar{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 5px;
 }
 .item{
   font-size:28px;
   margin-left: 50px;
-  margin-right: 50px;
-  color: #cdd6f4;
-  background-color:#313244;
   padding: 5px;
-}
+}*/
+
 /* Home Page*/
 .section{
   margin: 20px; /* Also nav-bar */
-  border: 3px solid #313244;
 }
 
 
@@ -25,21 +29,28 @@ body{
 
 .section-2{
   display: flex;
-  justify-content:center;
+  flex-direction:column;
+  align-items:center;
   padding: 100px;
 }
 
-.image{
-  
-}
 .my-img{
   border-radius: 50%;
-  width: 400px;
-  position: relative;
+  width: 300px;
 }
 
 .intro-text{
   margin: 20px;
+  text-align:center;
+  font-size:1.5rem;
+  letter-spacing:3px;
+  line-height: 1.8;
+  font-family: "Fira Code";
+}
+
+
+.head-line{
+  font-size:2.5rem;
 }
 
 /* Weapon Section 3*/
