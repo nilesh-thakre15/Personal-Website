@@ -1,11 +1,11 @@
 body{ 
-  font-family: "Fira Code";
+  font-family: "DM Serif Display", serif,"Fira Code", monospace;
   margin: 0px;
 }
 
 .home-page{
  background: #1e1e2e;
-  color: #cdd6f4;
+ color: #cdd6f4;
 }
 
 /* Nav-bar */
@@ -16,12 +16,10 @@ body{
   padding: 5px;
 }
 .item{
-  font-size:1.5rem;
+  font-size:1rem;
   padding: 5px;
   font-weight:bold;
-  margin:20px ;
-  text-decoration:underline;
-
+  margin:20px 60px ;
 }
 
 /* Section 2 */
@@ -31,7 +29,8 @@ body{
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  padding: 100px;:
+  padding: 100px;
+  padding-bottom: 60px;
 }
 
 .my-img{
@@ -56,14 +55,93 @@ body{
   display: flex;
 }
 
-/* Section 3*/
+/* My fav games*/
 
 .gaming-section{
   display: flex;
   justify-content:center;
+  align-items:center;
+  flex-direction:column;
   font-family: "Press Start 2P";
+  padding: 50px;
 }
 
+.game-list{
+  border: 3px solid #cdd6f4;
+  padding:30px;
+}
 
+.game{
+  margin: 20px;
+  text-decoration: underline;
+}
 
+/* My Book Recomedations */
 
+.books-section{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin:50px;
+}
+
+.book{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size:20px;
+  text-decoration: underline; 
+  font-weight:bold;
+  font-style:italic;
+}
+
+.book-heading{
+  padding:5px;
+  color:#94e2d5;
+}
+
+/* Movie Section */
+.movies-section{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  padding:50px;
+  font-family: "DM Serif Display", serif;
+}
+
+.movie{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+/* Tool Section */
+
+.tools-section{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin: 50px;
+}
+
+.tools-list{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:column;
+}
+
+.tool{
+  font-size:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*End of the Homepage*/
+
+.end-sec{
+  display:flex;
+  justify-content:center;
+}
